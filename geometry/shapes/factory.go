@@ -3,9 +3,9 @@ package shapes
 func FactoryShape(shapeType string) Shape {
 	switch shapeType {
 		case "rectangle":
-			return NewRectangle(5, 10)
+			return NewRectangle()
 		case "square":
-			return NewSquare(5)
+			return NewSquare()
 		default:
 			return nil
 	}
